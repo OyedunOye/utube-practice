@@ -13,6 +13,8 @@ const menu = (
   </>
 )
 
+//reminder to reconsider and amend how menu dropdown works for mobile apps.
+
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
