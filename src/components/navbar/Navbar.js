@@ -13,7 +13,8 @@ const menu = (
   </>
 )
 
-//reminder to reconsider and amend how menu dropdown works for mobile apps.
+//reminder to reconsider and amend how menu dropdown works for mobile apps, checked and works fine.
+//However, I need to reproduce this in Little lemon project.
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
